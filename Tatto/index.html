@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Alan Copetez · Tatuador en Puebla y CDMX · @copeteztattoo</title>
+  <meta name="description" content="Alan Copetez (@copeteztattoo): tatuajes de realismo, negro y gris, color, anime y retratos en Puebla y CDMX. Cotiza tu tatuaje en minutos.">
+  <meta name="theme-color" content="#070707">
+  <meta property="og:title" content="Alan Copetez · Tatuador | @copeteztattoo">
+  <meta property="og:description" content="Realismo, negro y gris, color, anime y retratos. Puebla / CDMX.">
+  <meta property="og:image" content="img/Ttto9.png">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <!-- PRELOADER / SPLASH -->
+  <div class="preloader" id="preloader" role="status" aria-label="Cargando Alan Copetez">
+    <div class="pre__inner">
+      <div class="pre__name" aria-hidden="true">
+        <span class="pre__word">
+          <span style="--i:0">A</span><span style="--i:1">L</span><span style="--i:2">A</span><span style="--i:3">N</span>
+        </span>
+        <span class="pre__word">
+          <span style="--i:4">C</span><span style="--i:5">O</span><span style="--i:6">P</span><span style="--i:7">E</span><span style="--i:8">T</span><span style="--i:9">E</span><span style="--i:10">Z</span>
+        </span>
+      </div>
+      <p class="pre__handle" aria-hidden="true">@copeteztattoo</p>
+      <div class="pre__bar" aria-hidden="true"><span></span></div>
+    </div>
+  </div>
+
+  <!-- Atmósfera -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="glow" id="glow" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <a href="#inicio" class="brand" aria-label="Alan Copetez, inicio">AC</a>
+    <nav class="topnav" aria-label="Principal">
+      <a href="#portafolio">Portafolio</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#cotizar" class="topnav__cta">Cotizar</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__backdrop" id="heroBg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__head" data-stagger>
+          <p class="eyebrow">Tatuador profesional</p>
+          <h1 class="hero__title">Alan<br>Copetez</h1>
+          <a class="hero__handle" href="https://instagram.com/copeteztattoo" target="_blank" rel="noopener">@copeteztattoo</a>
+          <p class="hero__location">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            Puebla / CDMX, México
+          </p>
+        </div>
+
+        <div class="hero__stage" data-reveal>
+          <div class="hero__deck" id="heroDeck">
+            <span class="hero__ghost hero__ghost--1" aria-hidden="true"></span>
+            <span class="hero__ghost hero__ghost--2" aria-hidden="true"></span>
+            <div class="hero__cards" id="heroSlides" role="region" aria-label="Piezas destacadas de Alan Copetez">
+              <figure class="hero__card is-active" id="heroSlideA">
+                <div class="hero__frame">
+                  <img src="img/Ttto9.png" alt="Manga completa de samurái en negro y gris con máscara hannya" decoding="async" fetchpriority="high">
+                </div>
+                <figcaption class="hero__meta">
+                  <span class="hero__label">Manga · Negro y gris</span>
+                  <span class="hero__counter">01 / 09</span>
+                </figcaption>
+              </figure>
+              <figure class="hero__card" id="heroSlideB" aria-hidden="true">
+                <div class="hero__frame">
+                  <img alt="" decoding="async">
+                </div>
+                <figcaption class="hero__meta">
+                  <span class="hero__label"></span>
+                  <span class="hero__counter"></span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="hero__bar" aria-hidden="true"><span id="heroProgress"></span></div>
+          </div>
+        </div>
+
+        <div class="hero__body" data-stagger>
+          <p class="hero__statement">Realismo en negro y gris, color, anime y retratos. Piezas 100% personalizadas, diseñadas para tu piel y tu historia.</p>
+          <div class="hero__actions">
+            <a href="#cotizar" class="btn btn--primary">Cotizar mi tatuaje</a>
+            <a href="#portafolio" class="btn btn--ghost">Ver portafolio</a>
+          </div>
+        </div>
+      </div>
+      <a href="#portafolio" class="hero__scroll" aria-label="Bajar al portafolio"><span></span></a>
+    </section>
+
+    <!-- CINTA DE ESTILOS (marquee de texto) -->
+    <div class="marquee marquee--text" aria-label="Estilos: Realismo, Color, Anime, Retrato, Custom Ink">
+      <div class="marquee__track" style="--dur: 32s">
+        <div class="marquee__group" data-marquee-source>
+          <span>Realismo</span><i>✦</i><span>Color</span><i>✦</i><span>Anime</span><i>✦</i><span>Retrato</span><i>✦</i><span>Custom Ink</span><i>✦</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEED VIVO (marquee de fotos) -->
+    <section class="section section--tight" id="feed" aria-label="Feed vivo">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Feed vivo</p>
+          <h2 class="section__title">Piezas destacadas</h2>
+        </header>
+      </div>
+      <div class="marquee marquee--photos" id="photoMarquee" data-reveal>
+        <div class="marquee__track" id="photoTrack"></div>
+      </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section class="section" id="portafolio">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Portafolio</p>
+          <h2 class="section__title">Trabajos recientes</h2>
+          <p class="section__lead">Toca cualquier pieza para verla en detalle.</p>
+        </header>
+
+        <div class="filters" id="filters" role="tablist" aria-label="Filtrar por categoría" data-reveal></div>
+
+        <ul class="gallery" id="gallery"></ul>
+        <noscript><p class="gallery__empty">Activa JavaScript para ver el portafolio, o visítanos en Instagram.</p></noscript>
+        <p class="gallery__empty" id="galleryEmpty" hidden>No hay piezas en esta categoría todavía.</p>
+
+        <div class="center" data-reveal>
+          <a href="https://instagram.com/copeteztattoo" target="_blank" rel="noopener" class="btn btn--ghost">Ver más en Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE EL ARTISTA -->
+    <section class="section section--alt" id="sobre">
+      <div class="container about">
+        <div class="about__text">
+          <p class="eyebrow" data-reveal>Sobre el artista</p>
+          <h2 class="section__title" data-reveal>Arte permanente, hecho con cuidado</h2>
+          <p data-reveal>Soy Alan, tatuador en Puebla y CDMX. Me especializo en realismo en negro y gris, color, anime y retratos con mucho detalle, además de mangas y proyectos grandes.</p>
+          <p data-reveal>No trabajo con catálogo. Cada diseño se crea desde cero a partir de tu idea, pensando en cómo se mueve el cuerpo y cómo va a envejecer la piel.</p>
+          <ul class="values" data-stagger>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+              <div><strong>Higiene estricta</strong><span>Material desechable y estéril, superficies desinfectadas en cada sesión.</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+              <div><strong>Diseño personalizado</strong><span>Tu idea convertida en una pieza única, ajustada a la zona y el tamaño.</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <div><strong>Experiencia en estudio</strong><span>Un espacio tranquilo y profesional donde te sientes cómodo de principio a fin.</span></div>
+            </li>
+          </ul>
+        </div>
+        <figure class="about__photo" data-reveal>
+          <img src="img/Ttto2.png" width="522" height="444" loading="lazy" decoding="async" alt="Detalle de realismo en negro y gris por Alan Copetez">
+        </figure>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section" id="proceso">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Proceso</p>
+          <h2 class="section__title">Así funciona</h2>
+        </header>
+        <ol class="steps" data-stagger>
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3>Envía tu idea</h3>
+            <p>Llena el formulario con tu idea, zona, tamaño y referencias. Me llega todo ordenado.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3>Cotización y diseño</h3>
+            <p>Te respondo con precio, tiempos y una propuesta de diseño. Ajustamos hasta que te encante.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3>Cita en estudio</h3>
+            <p>Apartamos fecha y llegas a tatuarte en un ambiente limpio, cómodo y profesional.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PRE-COTIZADOR -->
+    <section class="section section--alt" id="cotizar">
+      <div class="container container--narrow">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Pre-cotizador</p>
+          <h2 class="section__title">Cotiza tu tatuaje</h2>
+          <p class="section__lead">Completa estos datos y envíalos por WhatsApp o correo con el mensaje ya redactado. Así evitamos idas y vueltas.</p>
+        </header>
+
+        <form class="quote" id="quoteForm" novalidate data-reveal>
+          <div class="field">
+            <label for="nombre">Tu nombre</label>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej. Carlos Ramírez" required>
+            <small class="error" data-error-for="nombre"></small>
+          </div>
+
+          <div class="field">
+            <label for="idea">Idea o descripción del tatuaje</label>
+            <textarea id="idea" name="idea" rows="4" placeholder="Cuéntame qué quieres tatuarte, estilo (negro y gris, color…), significado, elementos importantes." required></textarea>
+            <small class="error" data-error-for="idea"></small>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="zona">Zona del cuerpo</label>
+              <select id="zona" name="zona" required>
+                <option value="">Selecciona…</option>
+                <option>Brazo (completo / manga)</option>
+                <option>Brazo (parte alta)</option>
+                <option>Antebrazo</option>
+                <option>Pierna / pantorrilla</option>
+                <option>Muslo</option>
+                <option>Espalda</option>
+                <option>Pecho / costillas</option>
+                <option>Mano / muñeca</option>
+                <option>Cuello / cabeza</option>
+                <option>Otra</option>
+              </select>
+              <small class="error" data-error-for="zona"></small>
+            </div>
+            <div class="field">
+              <label for="tamano">Tamaño aprox. (cm)</label>
+              <input type="number" id="tamano" name="tamano" inputmode="numeric" min="1" max="200" placeholder="Ej. 15" required>
+              <small class="error" data-error-for="tamano"></small>
+            </div>
+          </div>
+
+          <fieldset class="field">
+            <legend>Ciudad donde quieres tatuarte</legend>
+            <div class="radios">
+              <label class="radio"><input type="radio" name="ciudad" value="Puebla" checked><span>Puebla</span></label>
+              <label class="radio"><input type="radio" name="ciudad" value="CDMX"><span>CDMX</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="telefono">Tu WhatsApp <span class="optional">(opcional, para que Alan te responda)</span></label>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" placeholder="Ej. 222 123 4567">
+          </div>
+
+          <div class="field">
+            <label for="referencia">Imagen de referencia <span class="optional">(opcional)</span></label>
+            <label class="upload" for="referencia" id="uploadBox">
+              <input type="file" id="referencia" name="referencia" accept="image/*">
+              <img id="uploadPreview" alt="Vista previa de tu referencia" hidden>
+              <span class="upload__text" id="uploadText">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0 4 4m-4-4L8 8"/><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>
+                Toca para elegir una imagen
+              </span>
+            </label>
+            <small class="hint" id="uploadHint">La imagen se guarda junto con tu solicitud. Si el envío es solo por WhatsApp o correo, compártela también en el chat.</small>
+          </div>
+
+          <p class="form__status" id="formStatus" role="status" aria-live="polite" hidden></p>
+
+          <div class="quote__actions">
+            <button type="submit" class="btn btn--primary btn--wa" data-channel="whatsapp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.3L2 22l4.8-1.2A11 11 0 1 0 20.5 3.5Zm-8.5 17a9 9 0 0 1-4.6-1.3l-.3-.2-2.8.7.8-2.7-.2-.3A9 9 0 1 1 12 20.5Zm5-6.7c-.3-.1-1.6-.8-1.9-.9s-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a7.400 7.400 0 0 1-3.700-3.200c-.3-.5.3-.5.8-1.500.1-.2 0-.3 0-.5l-.9-2.100c-.2-.5-.5-.5-.7-.5h-.6a1.200 1.200 0 0 0-.9.4 3.700 3.700 0 0 0-1.100 2.700 6.400 6.400 0 0 0 1.300 3.400 14.600 14.600 0 0 0 5.600 4.900c2.100.9 2.900 1 3.900.8a3.300 3.300 0 0 0 2.200-1.600 2.700 2.700 0 0 0 .2-1.600c-.1-.1-.3-.2-.6-.3Z"/></svg>
+              <span>Enviar por WhatsApp</span>
+            </button>
+            <button type="submit" class="btn btn--ghost" data-channel="email"><span>Enviar por correo</span></button>
+          </div>
+        </form>
+
+        <!-- Estado de éxito -->
+        <div class="success" id="quoteSuccess" hidden>
+          <div class="success__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.500 4.500 4.500L19 7.500"/></svg></div>
+          <h3>¡Solicitud lista!</h3>
+          <p id="successMsg">Tu cotización quedó registrada.</p>
+          <p class="success__warn" id="successWarn" hidden></p>
+          <div class="success__actions">
+            <a class="btn btn--primary" id="successWa" href="#" target="_blank" rel="noopener">Continuar por WhatsApp</a>
+            <a class="btn btn--ghost" id="successMail" href="#">Enviar por correo</a>
+          </div>
+          <button type="button" class="linkbtn" id="newQuote">Enviar otra solicitud</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand" data-reveal>
+        <span class="brand brand--lg">Alan Copetez</span>
+        <p>Tatuador · Realismo, color, anime y retratos</p>
+      </div>
+      <ul class="footer__links" data-stagger>
+        <li><a class="quick" href="https://instagram.com/copeteztattoo" target="_blank" rel="noopener" data-link="instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1"/></svg>
+          @copeteztattoo</a></li>
+        <li><a class="quick" href="#" data-link="email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span data-email-label>Correo de contacto</span></a></li>
+        <li><a class="quick" href="https://www.google.com/maps/search/?api=1&query=Puebla+Mexico" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.200 7-12a7 7 0 1 0-14 0c0 5.800 7 12 7 12Z"/><circle cx="12" cy="10" r="2.500"/></svg>
+          Puebla / CDMX, México</a></li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© <span id="year"></span> Alan Copetez · @copeteztattoo. Todos los derechos reservados.</p>
+      <button type="button" class="admin-link" id="adminOpen">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+        Acceso Artista
+      </button>
+    </div>
+  </footer>
+
+  <a class="fab" id="fab" href="#cotizar" aria-label="Cotizar mi tatuaje">Cotizar</a>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de tatuaje" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Cerrar">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Anterior">&#8249;</button>
+    <figure class="lightbox__figure">
+      <img id="lbImg" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Siguiente">&#8250;</button>
+  </div>
+
+  <!-- MODAL PIN -->
+  <div class="modal" id="pinModal" role="dialog" aria-modal="true" aria-labelledby="pinTitle" hidden>
+    <div class="modal__panel modal__panel--sm">
+      <button class="modal__close" data-close aria-label="Cerrar">&times;</button>
+      <svg class="pin__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+      <h2 id="pinTitle" class="modal__title">Acceso Artista</h2>
+      <p class="modal__lead">Ingresa tu PIN para ver las cotizaciones recibidas.</p>
+      <form id="pinForm" autocomplete="off">
+        <input type="password" id="pinInput" inputmode="numeric" maxlength="12" placeholder="••••" aria-label="PIN" class="pin__input">
+        <small class="error" id="pinError"></small>
+        <button type="submit" class="btn btn--primary btn--block">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- PANEL ADMIN -->
+  <div class="modal" id="adminModal" role="dialog" aria-modal="true" aria-labelledby="adminTitle" hidden>
+    <div class="modal__panel modal__panel--lg">
+      <button class="modal__close" data-close aria-label="Cerrar">&times;</button>
+      <header class="admin__head">
+        <div>
+          <h2 id="adminTitle" class="modal__title">Cotizaciones recibidas</h2>
+          <p class="modal__lead" id="adminSummary"></p>
+        </div>
+        <div class="admin__tools">
+          <button type="button" class="btn btn--ghost btn--sm" id="adminExport">Exportar JSON</button>
+          <button type="button" class="btn btn--ghost btn--sm" id="adminLock">Cerrar sesión</button>
+        </div>
+      </header>
+      <div class="filters filters--admin" id="adminFilters">
+        <button class="chip is-active" data-status="all">Todas</button>
+        <button class="chip" data-status="Pendiente">Pendiente</button>
+        <button class="chip" data-status="Cotizada">Cotizada</button>
+        <button class="chip" data-status="Agendada">Agendada</button>
+      </div>
+      <p class="admin__note" id="adminNote"></p>
+      <div class="admin__tablewrap">
+        <table class="admin__table">
+          <thead>
+            <tr><th>Fecha</th><th>Cliente</th><th>Pieza</th><th>Ref.</th><th>Estado</th><th>Acciones</th></tr>
+          </thead>
+          <tbody id="adminBody"></tbody>
+        </table>
+      </div>
+      <p class="admin__empty" id="adminEmpty" hidden>Aún no hay cotizaciones en este navegador.</p>
+    </div>
+  </div>
+
+  <!-- Zoom de referencia (admin) -->
+  <div class="zoom" id="zoom" hidden><img id="zoomImg" alt="Referencia del cliente"></div>
+
+  <script src="gallery-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
